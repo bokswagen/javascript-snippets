@@ -1,0 +1,4 @@
+set url bar
+function setURLBar(theurl) {
+    history.pushState({}, '', theurl);
+}
